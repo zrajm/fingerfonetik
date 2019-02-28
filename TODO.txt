@@ -1,0 +1,30 @@
+-*- org -*-
+
+* Finished
+** [7/7] Move this project into its own git repo
+*** DONE Replace this project with redirects in earlier repo
+    CLOSED: [2019-02-28 Thu 02:38]
+*** DONE Update links in all other pages to new place
+    CLOSED: [2019-02-28 Thu 02:34]
+    There are none.
+*** DONE Update links from zrajm.github.io to new place
+    CLOSED: [2019-02-28 Thu 02:23]
+*** DONE Add repo description on GitHub
+    CLOSED: [2019-02-28 Thu 02:20]
+*** DONE Publish repo on GitHub Pages
+    CLOSED: [2019-02-28 Thu 02:20]
+*** DONE Add README and CC-BY-SA license files
+    CLOSED: [2019-02-28 Thu 02:05]
+*** DONE Add new repo to GitHub
+    CLOSED: [2019-02-28 Thu 02:13]
+** [2/2] Rewrite all commit messages
+   CLOSED: [2019-02-28 Thu 01:41]
+*** DONE Remove mentions of project name
+    CLOSED: [2019-02-28 Thu 01:41]
+    Basically every commit message mentions which project it belongs to, this
+    is redundant when the project gets its own repo.
+*** DONE Remove trailing periods
+    CLOSED: [2019-02-28 Thu 01:41]
+    All commit messages ends in a period, but this is not best practice so
+    let's undo that since we're rewriting history anyway.
+* [eof]
