@@ -31,7 +31,7 @@
         text-indent: -1em;
         padding-left: 1em;
     }
-    p.hanging:not(:first-child), .hanging p:not(:first-child) {
+    :not(h1) + p.hanging:not(:first-child), .hanging p:not(:first-child) {
         margin-top: -1em;
     }
     table[border]:not([border="0"]) {
@@ -43,6 +43,14 @@
       text-align: center;
       padding: .125em .25em;
       border: 1px solid black;
+    }
+    sub:before, sup:before,
+    sub:after, sup:after {
+      content: " ";
+      font-size: 50%;
+    }
+    sub, sup {
+      line-height: 0;
     }
   </style>
 </head>
@@ -93,6 +101,7 @@
     <li><a href=#kontakt>Kontakt</a>
     <li><a href=#lista>Handformer</a>
     <li><a href=#font>Typsnitt</a>
+    <li><a href=#fotnoter>Fotnoter</a>
     <li><a href=#referenser>Referenser</a>
   </ul>
   <div class=FIXME>
@@ -533,7 +542,7 @@
     </div><div class=inline
       ><img height=100 src="pic/annanhand.svg"
       ><span class=font-example>􌧲􌧲􌧭􌧺􌧬􌧶􌧺</span
-      ><br>annanhand
+      ><br>annanhand<a href="#1"><sup>1</sup></a>
     </div>
 
     <p>När tummen är knuten (dvs ligger över de andra fingrarna, eller i
@@ -657,7 +666,7 @@
     </div><div class=inline
       ><img height=100 src="pic/annanhand.svg"
       ><span class=font-example>􌧲􌧲􌧭􌧺􌧬􌧶􌧺</span
-      ><br>annanhand
+      ><br>annanhand<a href="#1"><sup>1</sup></a>
     </div><div class=inline
       ><img height=100 src="pic/d-hand.svg"
       ><span class=font-example>􌧬􌧬􌧬􌧬􌧷</span
@@ -721,7 +730,7 @@
     </div><div class=inline
       ><img height=100 src="pic/jasahand.svg"
       ><span class=font-example>􌧲􌧲􌧭􌧬􌧴</span
-      ><br>jasåhand
+      ><br>jasåhand<a href="#2"><sup>2</sup></a>
     </div><div class=inline
       ><img height=100 src="pic/k-hand.svg"
       ><span class=font-example>􌧲􌧲􌧭􌧻􌧬􌧶􌧺</span
@@ -897,7 +906,7 @@
     </div><div class=inline
       ><img height=100 src="pic/pistolhand.svg"
       ><span class=font-example>􌧲􌧲􌧬􌧬􌧴</span
-      ><br>pistolhand
+      ><br>pistolhand<a href="#3"><sup>3</sup></a>
     </div><div class=inline
       ><img height=100 src="pic/tumhand.svg"
       ><span class=font-example>􌧲􌧲􌧲􌧲􌧴</span
@@ -949,7 +958,7 @@
     </div><div class=inline
       ><img height=100 src="pic/vinklad-sprethand.svg"
       ><span class=font-example>􌧭􌧭􌧾􌧭􌧭􌧹</span
-      ><br>sprethand<br>(vinklad)
+      ><br>sprethand<a href="#4"><sup>4</sup></a><br>(vinklad)
     </div><div class=inline
       ><img height=100 src="pic/tumvinkelhand.svg"
       ><span class=font-example>􌧭􌧭􌧭􌧭􌧹</span
@@ -1070,6 +1079,27 @@
     <p class=FIXME id=FIXME6>FIXME: Korsade fingrar (􌧳) är tänkta att vara en
     ligatur för två fingrar intill varandra med mittkontakt (􌧬􌧻􌧬􌧻). Detta är
     dock ännu ej implementerat i typsnittet.
+  </section>
+  <section id=fotnoter>
+    <h1>Fotnoter</h1>
+
+    <p id=1 class=hanging>1. <i>Annanhand</i> är en handform som används i bla
+      tecknet <a href="https://teckensprakslexikon.su.se/ord/04333"><i>annan,
+      annat</i> [􌤮􌤴􌤸􌦆􌥎􌥼􌥻]</a>. Den transkriberas i lexikonet med K-hand [􌥎].
+
+    <p id=2 class=hanging>2. <i>Jasåhand</i> är en handform som används i bla
+      tecknet <a href="https://teckensprakslexikon.su.se/ord/04324"><i>jaså</i>
+      [􌤔􌤮􌥕􌥗􌤟􌥧]</a>. Den transkriberas i lexikonet med tupphand [􌤮] men
+      [<s>􌥎</s>] har föreslagits som framtida symbol.
+
+    <p id=3 class=hanging>3. <i>Pistolhand</i> är en handform som mig
+      veterligen inte förekommer i lexikonet, men som ibland används i
+      avbildande tecken (som substitutor då man refererar till en pistol).
+
+    <p id=4 class=hanging>4. <i>Vinklad sprethand</i> är en handform som
+      används i bla
+      tecknet <a href="http://teckensprakslexikon.su.se/ord/17271"><i>manet</i>
+      [􌥃􌥓􌥙􌥣􌦆􌥂􌥻]</a>. Den transkriberas i lexikonet med flat tumhand [􌥂].
   </section>
   <section id=referenser>
     <h1>Referenser</h1>
